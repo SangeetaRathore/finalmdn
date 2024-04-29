@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.mainsayba{
+/* .mainsayba{
     background-image: url(./assiste/m.png);
     background-repeat: no-repeat;
     background-image: cover;
@@ -12,31 +12,32 @@
     background-position: right;
     background-color: black;
     height: 28rem;
-}
-.box1{
+} */
+/* .box1{
     margin-left: 20rem;
-}
+} */
 
-.A{
+/* .A{
     font-size: 60px;
     color:white;
     margin-bottom:3rem;
     font-weight: lighter;
-}
-u{
-    color: skyblue;
+} */
+/* u{ */
+    /* color: skyblue;
 }
 .under{
     border-bottom: 5px solid skyblue;
     height:30px;
-}
-.B{
+} */
+
+/* .B{
     margin-top: 4rem;
     font-size: 1.3rem;
     color: white;
     font-weight: lighter;
-}
-input{
+} */
+/* input{
     width: 95%;
     height: 100%;
     display: block;
@@ -69,7 +70,7 @@ input{
     position: relative;
     border-radius: 25px;
     width:800px;
-}
+} */
 .tag{
     color: #CDCDCD;
     font-size:1.3rem;
