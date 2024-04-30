@@ -273,9 +273,8 @@ main{
     /* border: 2px solid rgb(163, 28, 62); */
     padding-left: 70px;
     font-size: 1rem;
-
-
 }
+
 .btn{
     width: 100px;
     height: 35px;
@@ -291,7 +290,7 @@ main{
 
   
 }
-h5{
+.redSquare{
     font-size: large;
     background-color: rgba(117, 26, 26, 0.575);
     padding: 12px;
@@ -344,7 +343,14 @@ h2 {
          color: #858585;
          padding: 15px 0 15px 5px;
 }
+/* right hovering */
 
+.leftbox-Hovering:hover{
+    font-size: large;
+    background-color: rgba(117, 26, 26, 0.575);
+    padding: 12px;
+    border-left: 2px solid red;
+}
 
 /* main>between */
 
@@ -473,7 +479,7 @@ h2 {
     font-size:0.1rem;
 }
 .footer_child_mdn{
-    line-height:0.3rem;
+    line-height:2rem;
 }
 ul{
  font-size: 1.3rem;

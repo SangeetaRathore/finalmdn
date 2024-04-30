@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
+
 <body>
     <!-- first html bar -->
     <Header>
@@ -149,7 +150,7 @@
         <!-- section left -->
         <section class="left sbar">
             <button class="btn">Filter</button> <br><br><br>
-            <h5>HTML</h5><br><br>
+            <h5 class="redSquare">HTML</h5><br><br>
             <ol>
                 <li id="three">Tutorials</li><br>
                 <li>HTML basics</li><br>
@@ -682,7 +683,7 @@
                     class="grey">&lt;Title&gt;</span>, <span class="grey">&lt;Title&gt;</span> or in any other way.
                 However, the convention and recommended practice is to write tags in lowercase.</p>
 
-            <p class="para">The articles below can help you learn more about HTML.</p>
+            <p class="para" id="key">The articles below can help you learn more about HTML.</p>
 
 
             <!-- Key resources -->
@@ -698,7 +699,7 @@
                         Area</span></a>.</p>
 
             <p class="keyhead">HTML Reference</p>
-            <p class="para">In our extensive <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"><span
+            <p class="para" id="beg">In our extensive <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference"><span
                         class="blue">HTML reference</span></a> section, you'll find the details about every element and
                 attribute in HTML.</p>
 
@@ -738,7 +739,7 @@
 
             <p class="keyhead"><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"><span
                         class="blue">Use HTML to solve common problems</span></a></p>
-            <p class="para">Provides links to sections of content explaining how to use HTML to solve very common
+            <p class="para" id="Adv">Provides links to sections of content explaining how to use HTML to solve very common
                 problems when creating a web page: dealing with titles, adding images or videos, emphasizing content,
                 creating a basic form, etc.</p>
 
@@ -759,7 +760,7 @@
 
 
             <p class="keyhead"><a class="blue" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload">Preloading content with rel="preload"</a></p>
-            <p class="para">The preload value of the <span><a class="blue grey" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">&lt;link&gt;</a></span> element's <span><a class="blue grey" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#rel">rel</a></span> attribute allows you to write declarative fetch requests in your HTML <span><a class="blue grey" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head">&lt;head&gt;</a></span>, specifying resources that your pages will need very soon after loading, which you therefore want to start preloading early in the lifecycle of a page load, before the browser's main rendering machinery kicks in. This ensures that they are made available earlier and are less likely to block the page's first render, leading to performance improvements. This article provides a basic guide to how <span class="grey">preload</span> works.</p>
+            <p class="para" id="ref">The preload value of the <span><a class="blue grey" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link">&lt;link&gt;</a></span> element's <span><a class="blue grey" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link#rel">rel</a></span> attribute allows you to write declarative fetch requests in your HTML <span><a class="blue grey" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head">&lt;head&gt;</a></span>, specifying resources that your pages will need very soon after loading, which you therefore want to start preloading early in the lifecycle of a page load, before the browser's main rendering machinery kicks in. This ensures that they are made available earlier and are less likely to block the page's first render, leading to performance improvements. This article provides a basic guide to how <span class="grey">preload</span> works.</p>
             <p class="head">Reference</p>
 
             <p class="keyhead"><a class="blue" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference">HTML reference</a></p>
@@ -795,7 +796,7 @@
 
 
             <p class="keyhead"><a class="blue" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode">Quirks mode and standards mode</a></p>
-            <p class="para">Historical information on quirks mode and standards mode.</p>
+            <p class="para" id="rela">Historical information on quirks mode and standards mode.</p>
 
             <p class="head">Related topics</p>
 
@@ -837,11 +838,11 @@
             <h2>In this article</h2>
 
             <div class="leftbox">
-                <p>Key resource</p>
-                <p>beginneertutorials</p>
-                <p>Advanced topic</p>
-                <p>References</p>
-                <p>related topic</p>
+                <a href="#key"><p class="leftbox-Hovering">Key resouce</p></a>
+                <a href="#beg"><p class="leftbox-Hovering">beginneertutorials</p></a>
+                <a href="#Adv"><p class="leftbox-Hovering">Advanced topic</p></a>
+                <a href="#ref"><p class="leftbox-Hovering">References</p></a>
+                <a href="#rela"><p class="leftbox-Hovering">related topic</p></a>
             </div>
 
         </section>
@@ -860,6 +861,7 @@
             <div class="footer_chlid1">
                 <div class="footer_child_mdn">
                     <p class="mdn">mdn</p>
+                    
                     <p>Your blueprint for a better internet.</p>
                 </div>
                 <div class="footer_child_icons">
@@ -872,7 +874,7 @@
          
             <div class="footer_chlid2">
                 <ul style="list-style-type: none;">MDN
-    
+                    
                     <li>about</li>
                     <li>blog</li>
                     <li>carrers</li>
